@@ -1,7 +1,7 @@
 <?php
 
 echo "<div style='background:red;color:white;text-align:center;padding:10px;font-size:18px'>
-CodeDeploy DEPLOYMENT TEST – If you see this, CI/CD is working
+CodeDeploy DEPLOYMENT TEST – If you see this, CI/CD is working v1.0
 </div>";
 
 /**
