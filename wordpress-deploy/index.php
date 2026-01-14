@@ -1,4 +1,9 @@
 <?php
+
+echo "<div style='background:red;color:white;text-align:center;padding:10px;font-size:18px'>
+CodeDeploy DEPLOYMENT TEST – If you see this, CI/CD is working
+</div>";
+
 /**
  * Front to the WordPress application. This file doesn't do anything, but loads
  * wp-blog-header.php which does and tells WordPress to load the theme.
