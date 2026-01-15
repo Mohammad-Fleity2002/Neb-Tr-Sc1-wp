@@ -4,7 +4,7 @@ os: linux
 files:
   - source: wordpress-deploy/
     destination: /var/www/html
-    overwrite: yes
+    overwrite: true
 
 hooks:
   BeforeInstall:
