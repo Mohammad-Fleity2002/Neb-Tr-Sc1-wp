@@ -5,10 +5,15 @@ define('WP_SITEURL', 'https://mohammadfleity.com');
 define('FORCE_SSL_ADMIN', true);
 
 /* Fix for HTTPS behind ALB / reverse proxy */
-if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) 
-    && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https') {
+if (
+    (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) &&
+     strpos($_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== false)
+    || 
+    (!empty($_SERVER['HTTP_X_FORWARDED_SSL']) && $_SERVER['HTTP_X_FORWARDED_SSL'] == 'on')
+) {
     $_SERVER['HTTPS'] = 'on';
 }
+
 /**
  * The base configuration for WordPress
  *
