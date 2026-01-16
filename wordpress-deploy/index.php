@@ -1,7 +1,7 @@
 <?php
 
 echo "<div style='background:red;color:white;text-align:center;padding:10px;font-size:18px'>
-CodeDeploy DEPLOYMENT TEST – If you see this, CI/CD is working v2.0 and CW ALARNS v0.0
+CodeDeploy DEPLOYMENT TEST – If you see this, CI/CD is working v3.0 and CW ALARNS v0.0
 </div>";
 
 /**

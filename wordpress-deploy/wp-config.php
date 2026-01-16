@@ -1,7 +1,7 @@
 <?php
 define('WP_HOME', 'https://mohammadfleity.com');
 define('WP_SITEURL', 'https://mohammadfleity.com');
-
+/**this is a test */
 define('FORCE_SSL_ADMIN', true);
 
 /* Fix for HTTPS behind ALB / reverse proxy */
